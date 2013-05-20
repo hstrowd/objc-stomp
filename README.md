@@ -6,6 +6,8 @@ This is a simple STOMP client based on
 * an initial implementation (StompService) from Scott Raymond <sco@scottraymond.net> (see [http://gist.github.com/72935](http://gist.github.com/72935))
 * and AsynSocket: [http://code.google.com/p/cocoaasyncsocket/](http://code.google.com/p/cocoaasyncsocket/)
 
+Separate versions have been pulled out to support environments where Automatic Reference Counting (ARC) is and is not being used.
+
 
 Usage
 -----
@@ -82,3 +84,4 @@ Contributors
 * Stefan Saasen
 * Graham Haworth
 * jbg
+* hstrowd
